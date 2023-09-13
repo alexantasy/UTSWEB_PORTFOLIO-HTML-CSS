@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<!-- Deklarasi tipe dokumen HTML yang digunakan, yaitu HTML versi terbaru -->
+
+<html lang="en">
+  <!-- Awal elemen HTML, dengan atribut "lang" yang menunjukkan bahasa (Inggris) -->
+
+  <head>
+    <!-- Awal elemen head, yang berisi informasi metadata untuk halaman web -->
+
+    <meta charset="UTF-8" />
+    <!-- Deklarasi pengaturan karakter UTF-8 untuk mendukung berbagai karakter -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Pengaturan kompatibilitas dengan Internet Explorer (IE) -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Pengaturan viewport untuk responsifitas halaman pada berbagai perangkat -->
+
+    <title>Bento-Cake</title>
+    <!-- Judul halaman web yang akan ditampilkan di tab browser -->
+  </head>
+  <!-- Akhir elemen head -->
+
+  <!-- Font Awesome CDN Link -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <!-- Menghubungkan halaman web dengan font "Poppins" melalui Google Fonts. Font ini memiliki berbagai varian berdasarkan bobotnya. -->
+
+  <!-- Icon Star -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+  <!-- Menghubungkan halaman web dengan ikon bintang dari Font Awesome. Ini memungkinkan penggunaan ikon-ikon dalam halaman web. -->
+
+  <!-- Custom CSS File Link -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Menghubungkan halaman web dengan file CSS kustom yang terletak dalam direktori "css". Ini digunakan untuk mengatur tampilan dan gaya halaman web secara khusus. -->
+
+  <body>
+    <!-- Bagian header dimulai -->
+
+    <header>
+      <!-- Kotak centang untuk toggler -->
+      <input type="checkbox" name="" id="toggler" />
+
+      <!-- Label untuk toggler dengan ikon garis-garis -->
+      <label for="toggler" class="fas fa-bars"></label>
+
+      <!-- Tautan logo Cake-a-licious -->
+      <a href="#" class="logo">Cake-a-licious<span>.</span></a>
+
+      <!-- Navigasi utama -->
+      <nav class="navbar">
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang</a>
+        <a href="#products">Katalog</a>
+        <a href="#review">Ulasan</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+    </header>
+    <!-- Akhir dari bagian header -->
+
+    <!--header section ends-->
+
+    <!-- Bagian ini adalah awal dari bagian beranda (home section) -->
+    <section class="home" id="home">
+      <!-- Di dalam bagian beranda terdapat gambar yang menampilkan produk -->
+      <div class="about-img">
+        <img src="img/home.img 1.jpg" alt="" class="responsive-img" />
+      </div>
+      <!-- Di samping gambar, terdapat konten teks -->
+      <div class="content">
+        <!-- Judul utama beranda -->
+        <h3>Mencari Hadiah Spesial?</h3>
+        <!-- Deskripsi atau tagline singkat -->
+        <span>Manis dan lembut</span>
+        <!-- Paragraf penjelasan atau pesan utama -->
+        <p>
+          Kejutkan orang yang Anda cintai dengan kue Bento yang indah dari
+          Cake-a-licious
+        </p>
+        <!-- Tombol yang mengarahkan pengguna untuk melakukan pemesanan -->
+        <a href="#products" class="btn">Pesan Sekarang</a>
+      </div>
+    </section>
+    <!-- Bagian ini adalah akhir dari bagian beranda (home section) -->
+
+    <<!-- Bagian ini adalah awal dari bagian tentang kami (about section) -->
+    <section class="about" id="about">
+      <!-- Judul besar yang menggambarkan bagian ini -->
+      <h1 class="heading"><span> tentang </span> kami</h1>
+      <!-- Baris (row) yang berisi gambar dan konten teks -->
+      <div class="row">
+        <!-- Container gambar -->
+        <div class="image-container">
+          <!-- Gambar yang menampilkan toko atau produk -->
+          <img
+            src="img/about img.jpg"
+            alt=""
+            style="
+              width: 490px;
+              height: 390px;
+              border: 2px solid pink;
+              border-radius: 5px;
+            "
+          />
+        </div>
+        <!-- Konten teks tentang toko atau layanan -->
+        <div class="content">
+          <!-- Judul tentang toko atau layanan -->
+          <h3>Cake-a-licious</h3>
+          <!-- Paragraf yang menjelaskan toko atau layanan secara detail -->
+          <p>
+            Selamat datang di Cake-a-Licious, tujuan wisata Anda untuk kue yang
+            lezat dan unik! Toko kami didedikasikan untuk menyediakan berbagai
+            macam kue bento yang dibuat dengan indah dan menarik secara visual.
+            Entah kau mencari hidangan manis untuk dirimu sendiri atau hadiah
+            untuk seseorang yang spesial, kue kami sangat cocok untuk setiap
+            kesempatan. Dengan keindahannya yang tak tertandingi, makanan ini
+            tak hanya menjadi santapan bagi indera pengecap Anda, tetapi juga
+            mata Anda. Bento Cake-a-licious kami menawarkan kombinasi sempurna
+            dari rasa lezat, tekstur krim, dan penampilan mempesona. Rasakan
+            kebahagiaan dalam setiap gigitan dan pilih dari berbagai desain yang
+            menarik. Anda dapat menyesuaikan kue seperti yang Anda suka. Terima
+            kasih telah memilih Kue-a-Licious sebagai tujuan kue Anda. Kami
+            menantikan untuk melayani Anda dan memberi Anda pengalaman membuat
+            kue yang berkesan!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Bagian ini adalah akhir dari bagian tentang kami (about section) -->
+
+    <!-- Bagian ini adalah awal dari bagian ikon (icons section) -->
+    <section class="icons-container">
+      <!-- Ini adalah satu set ikon dengan teks terkait -->
+      <div class="icons">
+        <!-- Gambar ikon pertama -->
+        <img src="img/money.png" alt="" />
+        <!-- Informasi terkait ikon pertama -->
+        <div class="info">
+          <!-- Judul ikon pertama -->
+          <h3>Kue Uang Kembali</h3>
+          <!-- Deskripsi atau tagline ikon pertama -->
+          <span>Kue yang Rusak</span>
+        </div>
+      </div>
+
+      <!-- Ini adalah satu set ikon dengan teks terkait -->
+      <div class="icons">
+        <!-- Gambar ikon kedua -->
+        <img src="img/globe.png" alt="" />
+        <!-- Informasi terkait ikon kedua -->
+        <div class="info">
+          <!-- Judul ikon kedua -->
+          <h3>Wadah Ramah Lingkungan</h3>
+          <!-- Deskripsi atau tagline ikon kedua -->
+          <span>Kotak Makanan dari Bagasse</span>
+        </div>
+      </div>
+
+      <!-- Ini adalah satu set ikon dengan teks terkait -->
+      <div class="icons">
+        <!-- Gambar ikon ketiga -->
+        <img src="img/delivery.png" alt="" />
+        <!-- Informasi terkait ikon ketiga -->
+        <div class="info">
+          <!-- Judul ikon ketiga -->
+          <h3>Pengiriman Gratis</h3>
+          <!-- Deskripsi atau tagline ikon ketiga -->
+          <span>untuk pesanan lebih dari satu</span>
+        </div>
+      </div>
+
+      <!-- Ini adalah satu set ikon dengan teks terkait -->
+      <div class="icons">
+        <!-- Gambar ikon keempat -->
+        <img src="img/payments.png" alt="" />
+        <!-- Informasi terkait ikon keempat -->
+        <div class="info">
+          <!-- Judul ikon keempat -->
+          <h3>Pembayaran Aman</h3>
+          <!-- Deskripsi atau tagline ikon keempat -->
+          <span>semua jenis pembayaran</span>
+        </div>
+      </div>
+    </section>
+    <!-- Bagian ini adalah akhir dari bagian ikon (icons section) -->
+
+    <!--products section starts-->
+
+    <section class="products" id="products">
+      <h1 class="heading">Catalog <span>Cake</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <span class="discount">10%</span>
+          <div class="image">
+            <img src="img/cake 1.png" alt="" />
+          </div>
+
+          <div class="content">
+            <h3>Sprinkles Bento Cake</h3>
+            <div class="price">Rp60.000 <span>Rp75.000</span></div>
+            <a href="https://wa.me/message/A7EIC32FM5WTM1" class="btn"
+              >Order Now!</a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <span class="discount">10%</span>
+          <div class="image">
+            <img src="img/cake 2.png" alt="" />
+          </div>
+
+          <div class="content">
+            <h3>Character Bento Cake</h3>
+            <div class="price">Rp95.000 <span>Rp120.000</span></div>
+            <a href="https://wa.me/message/A7EIC32FM5WTM1" class="btn"
+              >Order Now!</a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <span class="discount">10%</span>
+          <div class="image">
+            <img src="img/cake 3.png" alt="" />
+          </div>
+
+          <div class="content">
+            <h3>Macha Bento Cake</h3>
+            <div class="price">Rp75.000 <span>Rp80.000</span></div>
+            <a href="https://wa.me/message/A7EIC32FM5WTM1" class="btn"
+              >Order Now!</a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <span class="discount">10%</span>
+          <div class="image">
+            <img src="img/cake 4.png" alt="" />
+          </div>
+
+          <div class="content">
+            <h3>2 Mini Bento Cake</h3>
+            <div class="price">Rp80.000 <span>Rp100.000</span></div>
+            <a href="https://wa.me/message/A7EIC32FM5WTM1" class="btn"
+              >Order Now!</a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <span class="discount">10%</span>
+          <div class="image">
+            <img src="img/cake 5.png" alt="" />
+          </div>
+
+          <div class="content">
+            <h3>Simple Bento Cake</h3>
+            <div class="price">Rp50.000 <span>Rp70.000</span></div>
+            <a href="https://wa.me/message/A7EIC32FM5WTM1" class="btn"
+              >Order Now!</a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <span class="discount">10%</span>
+          <div class="image">
+            <img src="img/cake 6.png" alt="" />
+          </div>
+
+          <div class="content">
+            <h3>Ugly Bento Cake</h3>
+            <div class="price">Rp80.000 <span>Rp110.000</span></div>
+            <a href="https://wa.me/message/A7EIC32FM5WTM1" class="btn"
+              >Order Now!</a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <span class="discount">10%</span>
+          <div class="image">
+            <img src="img/cake 7.png" alt="" />
+          </div>
+
+          <div class="content">
+            <h3>Colorfull Bento Cake</h3>
+            <div class="price">Rp60.000 <span>Rp75.000</span></div>
+            <a href="https://wa.me/message/A7EIC32FM5WTM1" class="btn"
+              >Order Now!</a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <span class="discount">10%</span>
+          <div class="image">
+            <img src="img/cake 8.png" alt="" />
+          </div>
+
+          <div class="content">
+            <h3>Pretty Bento Cake</h3>
+            <div class="price">Rp80.000 <span>Rp95.000</span></div>
+            <a href="https://wa.me/message/A7EIC32FM5WTM1" class="btn"
+              >Order Now!</a
+            >
+          </div>
+        </div>
+
+        <div class="box">
+          <span class="discount">10%</span>
+          <div class="image">
+            <img src="img/cake 9.png" alt="" />
+          </div>
+
+          <div class="content">
+            <h3>Ornament Bento Cake</h3>
+            <div class="price">Rp75.000 <span>Rp95.000</span></div>
+            <a href="https://wa.me/message/A7EIC32FM5WTM1" class="btn"
+              >Order Now!</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--products section ends-->
+
+    <!--review section starts-->
+    <section class="review" id="review">
+      <h1 class="heading">Customer's <span>review</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>
+            Teksturnya lembut dan tidak terlalu manis. Sangat cocok bagi yang
+            tidak terlalu suka dengan rasa yang terlalu manis.
+          </p>
+          <div class="user">
+            <img src="img/customer 1.png" alt="" />
+            <div class="user-info">
+              <h3>Lee DoDo</h3>
+              <span>new customer</span>
+            </div>
+          </div>
+          <span class="fa fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>
+            Saya membeli beberapa Bento cakes ini karena terlihat sangat menarik
+            dan cantik. Rasanya juga tidak mengecewakan, membuat saya ingin
+            mencobanya lagi dan lagi.
+          </p>
+          <div class="user">
+            <img src="img/customer 2.png" alt="" />
+            <div class="user-info">
+              <h3>Aldi Yellow</h3>
+              <span>new customer</span>
+            </div>
+          </div>
+          <span class="fa fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>
+            Pilihan design dan ornament pada bento cakes ini sangat variatif dan
+            kreatif. Setiap gigitan pasti memberikan pengalaman yang berbeda dan
+            unik.
+          </p>
+          <div class="user">
+            <img src="img/customer 3.png" alt="" />
+            <div class="user-info">
+              <h3>Agus D</h3>
+              <span>new customer</span>
+            </div>
+          </div>
+          <span class="fa fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>
+            Saya membeli Macha Bento cakes ini terlihat sangat menarik dan
+            cantik. Rasanya juga tidak mengecewakan, membuat saya ingin
+            mencobanya lagi dan lagi.
+          </p>
+          <div class="user">
+            <img src="img/customer 4.png" alt="" />
+            <div class="user-info">
+              <h3>bb'byeon</h3>
+              <span>new customer</span>
+            </div>
+          </div>
+          <span class="fa fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>
+            Pilihan toping dan isian pada bento cakes ini sangat variatif dan
+            kreatif. Setiap gigitan pasti memberikan pengalaman yang berbeda dan
+            unik.
+          </p>
+          <div class="user">
+            <img src="img/customer 5.png" alt="" />
+            <div class="user-info">
+              <h3>Mas Kim</h3>
+              <span>new customer</span>
+            </div>
+          </div>
+          <span class="fa fa-quote-right"></span>
+        </div>
+
+        <div class="box">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>
+            Teksturnya lembut dan tidak terlalu manis. Sangat cocok bagi yang
+            tidak terlalu suka dengan rasa yang terlalu manis,dan cocok diminum
+            dengan teh atau kopi.
+          </p>
+          <div class="user">
+            <img src="img/customer 6.png" alt="" />
+            <div class="user-info">
+              <h3>Jeffery</h3>
+              <span>new customer</span>
+            </div>
+          </div>
+          <span class="fa fa-quote-right"></span>
+        </div>
+      </div>
+    </section>
+    <!--review section ends-->
+
+    <footer>
+      <!-- Awal elemen footer (bagian bawah halaman web) -->
+
+      <div class="footer-content">
+        <!-- Awal div dengan kelas "footer-content" untuk mengelompokkan konten footer -->
+
+        <div class="info">
+          <!-- Awal div dengan kelas "info" untuk mengelompokkan informasi kontak -->
+
+          <h3>Informasi Kontak</h3>
+          <!-- Judul "Informasi Kontak" yang menandakan konten yang akan ditampilkan -->
+
+          <p>
+            Alamat: Jl. DI Panjaitan No.128, Karangreja, Purwokerto Kulon,<br />
+            Kec. Purwokerto Sel., Kabupaten Banyumas, Jawa Tengah 53141
+          </p>
+          <!-- Paragraf pertama berisi alamat lengkap -->
+
+          <p>Telepon: +628883937132</p>
+          <!-- Paragraf kedua berisi nomor telepon -->
+
+          <p>Email: 541221016@student.smktelkom-pwt.sch.id</p>
+          <!-- Paragraf ketiga berisi alamat email -->
+        </div>
+        <!-- Akhir div "info" -->
+      </div>
+      <!-- Akhir div "footer-content" -->
+    </footer>
+    <!-- Akhir elemen footer -->
+
+    <!--footer section starts-->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="footer-text">
+          <div class="credit">
+            &copy;Created by <span> Alexa Natasya Dhilah </span> |
+            cake-a-licious
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer section ends-->
+  </body>
+</html>
